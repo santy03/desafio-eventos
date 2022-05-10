@@ -1,7 +1,5 @@
 import styled from "styled-components";
 
-
-
 //Item
 const Info = styled.div`
     opacity: 0;

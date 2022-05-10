@@ -10,7 +10,7 @@ const ItemListContainer = () => {
     const [datos, setDatos] = useState([]);
     const { idCategory } = useParams();
 
-    console.log(idCategory);
+    //console.log(idCategory);
 
     //componentDidUpdate
     useEffect(() => {
@@ -25,8 +25,8 @@ const ItemListContainer = () => {
     const onAdd = (qty) => {
         alert("You have selected " + qty + " items.");
     }
-    console.log("ItemListContainer",products) 
-    console.log("datos",datos)
+    //console.log("ItemListContainer",products) 
+    //console.log("datos",datos)
     return (
         <>  
             <ItemList items={datos} />
